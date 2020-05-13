@@ -1,0 +1,152 @@
+﻿<html>
+
+<head>
+    <style>
+        .flex-container {
+            flex-direction: row;
+            display: -webkit-flex;
+            display: inline-flex;
+            background-color: #ffffff00;
+            width: 100%;
+            align-content: center;
+            flex-flow: row wrap;
+            margin-top: 5px;
+            justify-content: center;
+        }
+
+
+        .flex-item {
+            border: solid;
+            width: 25%;
+            height: 609px;
+            margin: 10px;
+            order: 1;
+            border-top-color: black;
+            border-radius: 3px;
+            padding: 0 10px 40px 10px;
+        }
+
+
+        .pic-1 {
+            background-image: url('1.jpeg');
+        }
+
+        .pic-2 {
+            background-image: url('2.jpeg');
+        }
+
+        .pic-3 {
+            background-image: url('3.jpeg');
+        }
+
+        .pic-4 {
+            background-image: url('4.jpeg');
+        }
+
+        .pic-5 {
+            background-image: url('5.jpeg');
+        }
+
+        .pic-6 {
+            background-image: url('6.jpeg');
+        }
+
+        .details {
+            display: none;
+            margin-top: 100%;
+            background-color: #c9c7c9b2;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+
+        .body {
+
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+    <script>
+    </script>
+    <link rel="stylesheet" type="text/css" href="https://materializecss.com/css/ghpages-materialize.css">
+    <script src="three.r95.min.js"></script>
+    <script src="vanta.waves.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="intro" id="abu" style="background-color: #ffffff00">
+        <center>
+            <img src="title.jpg" alt="">
+            <center>
+                <p style="text-align:justify;margin-left: 20%;margin-right:20%">What we do is what we do and ritika abcdjolkjh sui dhaaga dfdsfsd nice
+                     is boutique and buitique is ritika so asdfdsfdf mai bhaaga good
+                     very good good is very ritika and boutique sdfsdfdf thak gya ok
+                     you know kapde very much ok now ya ya you can view my collection alright.
+                    
+                </p>
+            </center>
+            <p>
+                <br>
+                <h3>Collections</h3> Item he item lelo lelo lelo</p>
+        </center>
+        <div class="flex-container">
+            <div class="flex-item pic-1" onclick="hell(d1)">
+                <div id="d1" class="details">latest summer fashion beautiful elegant v-neck chiffon printing dress</div>
+            </div>
+            <div class="flex-item pic-2" onclick="hell(d2)">
+                <div id="d2" class="details">
+                    A Lightweight Silk fabric in bold traditional motifs is apt for a long length pleated dress like this. Side pleats give the
+                    dress the much required volume and is a perfect occasion wear. But if you are a petite size then restraint
+                    from using bolder and bigger patterns, as it will make you look much shorter.</div>
+            </div>
+            <div class="flex-item pic-3" onclick="hell(d3)">
+                <div id="d3" class="details">So kalamkari is not just meant for kurta’s but you can make wonderful dresses out of it too. A simple pleated
+                    knee length dress with a peter pan collar is a perfect thing to try this summer.</div>
+            </div>
+            <div class="flex-item pic-4" onclick="hell(d4)">
+                <div id="d4" class="details">stylish khadi dress.</div>
+            </div>
+            <div class="flex-item pic-5"  onclick="hell(d5)">
+                <div id="d5" class="details">Wear a light weight lehnga choli of any colour that you like. Not only this but when paired with a floor touching                          jacket, people will definitely talk about your dress because this is a look that is a new one and a very trending one.</div>
+            </div>
+            <div class="flex-item pic-6"  onclick="hell(d6)">
+                <div id='d6' class="details">Yellow TAFFETA SILK designer lehenga choli.</div>
+            </div>
+        </div>
+        <footer class="page-footer" style="background-color:black;opacity: 0.5;">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="white-text">About us</h5>
+                        <p class="grey-text text-lighten-4">Hum hum hai tum tum ho</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    © 2020 Copyright Ritika Buotique
+                    <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+<script>
+    VANTA.WAVES({
+        el: "#abu",
+        mouseControls: true,
+        touchControls: true,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        color: 0x8c8c8c
+    })
+    function hell(divId) {
+
+        $(divId).fadeToggle();
+    }
+</script>
+
+</html>
